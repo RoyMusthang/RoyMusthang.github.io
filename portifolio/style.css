@@ -1,0 +1,31 @@
+#meunome {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #76F7BF;
+  padding: 3%;
+}
+#foto {
+  height: 280px;
+  float: left;
+  padding: 10px;
+  background-color: rgb(87, 190, 216);
+  position: absolute;
+}
+.intro {
+  position: relative;
+}
+.caixaimagem {
+  height: 300px;
+  position: relative;
+}
+.descricao {
+  width: 40%;
+  position: absolute;
+  top: 40%;
+  right: 8%;
+}
+ul li:nth-child(odd){
+  background-color: rgb(87, 190, 216);
+}
