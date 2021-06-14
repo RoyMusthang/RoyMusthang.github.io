@@ -1,31 +1,52 @@
-#meunome {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-align: center;
+.foto-perfil {
+  height: 100%;
+  width: 300px;
+  max-width: 100%;
+  border-radius: 50%;
 }
-body {
-  background-color: #76F7BF;
-  padding: 3%;
+
+.corPrimaria {
+  background-color: rgb(98, 146, 146);
 }
-#foto {
-  height: 280px;
-  float: left;
-  padding: 10px;
-  background-color: rgb(87, 190, 216);
-  position: absolute;
+
+.corSecundaria {
+  background-color: rgb(37, 37, 37);
 }
-.intro {
-  position: relative;
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black !important;
 }
-.caixaimagem {
-  height: 300px;
-  position: relative;
+
+.icones {
+  padding-left: 5px;
 }
-.descricao {
-  width: 40%;
-  position: absolute;
-  top: 40%;
-  right: 8%;
+
+.titulosBrancos {
+  text-decoration: underline;
+  text-underline-position: below;
+  padding-bottom: 20px;
+  font-weight: 700;
+  color: white;
 }
-ul li:nth-child(odd){
-  background-color: rgb(87, 190, 216);
+
+.titulosVerdes {
+  text-decoration: underline;
+  text-underline-position: below;
+  padding-bottom: 20px;
+  font-weight: 700;
+  color: rgb(98, 146, 146);
+}
+
+.textoBranco {
+  color: white !important;
+}
+
+.textoFooter {
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+html {
+  scroll-behavior: smooth;
 }
