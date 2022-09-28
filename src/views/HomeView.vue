@@ -73,9 +73,10 @@
               </p>
               <v-btn
                 class="mt-4"
-                href="/JosueLoboCV.pdf" 
-                color="green" 
-                download>
+                href="/JosueLoboCV.pdf"
+                color="green"
+                download
+              >
                 Download Resume
               </v-btn>
             </v-col>
@@ -147,7 +148,7 @@
       </v-col>
       <v-col cols="12" class="imgHover">
         <v-row class="fill-height" align="center" justify="center">
-          <template v-for="(item) in items" :key="i">
+          <template v-for="item in items" :key="i">
             <v-col cols="12" md="4">
               <v-hover v-slot="{ isHovering, props }">
                 <v-card
@@ -247,8 +248,7 @@
                 variant="outlined"
               ></v-btn
               ><br />
-              <span class="text-caption">Ananindeua - PA, Brazil</span
-              ><br />
+              <span class="text-caption">Ananindeua - PA, Brazil</span><br />
               <v-btn
                 icon="fas fa-phone-alt"
                 color=""
@@ -264,7 +264,8 @@
                 variant="outlined"
               ></v-btn
               ><br />
-              <span class="text-caption">Josuevitorp.lobo@gmail.com </span> <br />
+              <span class="text-caption">Josuevitorp.lobo@gmail.com </span>
+              <br />
             </div>
           </v-col>
           <v-col cols="12" sm="8">
@@ -335,14 +336,14 @@ export default defineComponent({
         },
         {
           img: "/971.jpg",
-        }
+        },
       ],
     };
   },
   components: {
     NavBar,
-    FooterView
-},
+    FooterView,
+  },
 });
 </script>
 <style scoped>

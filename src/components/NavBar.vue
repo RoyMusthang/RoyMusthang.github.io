@@ -1,9 +1,9 @@
 <template>
-  <v-app-bar app color="black" dark flat class="px-12" >
-    <v-btn >
-      <v-icon color="#0b8f70" left class="mr-2">fas fa-signature</v-icon>Roy Musthang
+  <v-app-bar app color="black" dark flat class="px-12">
+    <v-btn>
+      <v-icon color="#0b8f70" left class="mr-2">fas fa-signature</v-icon>Roy
+      Musthang
     </v-btn>
-    
 
     <v-spacer></v-spacer>
     <v-btn text @click="scroll('home')" class="text-green">Home</v-btn>
@@ -27,5 +27,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>
