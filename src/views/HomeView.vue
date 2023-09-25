@@ -8,7 +8,7 @@
             <div style="position: relative" class="mt-16">
               <h1 class="text-grey">Hello,</h1>
               <h1 class="text-white">I'M Josué Lobo</h1>
-              <span class="text-grey">Full Stack Developer</span><br />
+              <span class="text-grey">Software Developer</span><br />
 
               <v-btn tile dark class="text-green mt-8" variant="outlined">
                 Contact me
@@ -34,7 +34,7 @@
           </v-col>
           <v-col cols="5">
             <div style="position: relative; z-index: 9999" class="mt-16">
-              <v-img src="/4270278.png" contain max-height="300"></v-img>
+              <v-img src="/4270278.webp" contain max-height="300"></v-img>
             </div>
           </v-col>
         </v-row>
@@ -44,7 +44,7 @@
           <v-row>
             <v-col cols="12" sm="6">
               <div class="egg">
-                <v-img src="i2.png" max-height="300" class=""></v-img>
+                <v-img src="i2.webp" max-height="300" class=""></v-img>
               </div>
             </v-col>
             <v-col cols="12" sm="6">
@@ -59,18 +59,11 @@
               <h4 class="mt-n4">I'm a bug hunter</h4>
               <h4 class="">And Developer</h4>
               <p class="text-grey">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aspernatur, ullam perspiciatis fugiat temporibus laboriosam
-                accusamus tempora repellendus sequi sed cum dolorum vero est.
-                Placeat dicta architecto reiciendis est veniam. Unde.
+                I'm passionate about information security, automation, and development. <br />
+                I used to work as a bug bounty hunter on HackerOne; however,<br />
+                I have now transitioned to web development as a freelancer.
               </p>
               <br />
-              <p class="text-grey">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aspernatur, ullam perspiciatis fugiat temporibus laboriosam
-                accusamus tempora repellendus sequi sed cum dolorum vero est.
-                Placeat dicta architecto reiciendis est veniam. Unde.
-              </p>
               <v-btn
                 class="mt-4"
                 href="/JosueLoboCV.pdf"
@@ -105,8 +98,8 @@
                 ></v-btn>
                 <h3 class="ml-3 mt-4">Front End</h3>
                 <p class="text-grey ml-3 mt-4 text-caption">
-                  Lorem, ipsum dolor sit amet <br />consectetur adipisicing
-                  <br />consectetur adipis
+                  Creation of interfaces, <br />
+                  websites and applications
                 </p>
               </div>
               <div class="child">
@@ -117,8 +110,8 @@
                 ></v-btn>
                 <h3 class="ml-3 mt-4">Back End</h3>
                 <p class="text-grey ml-3 mt-4 text-caption">
-                  Lorem, ipsum dolor sit amet <br />consectetur adipisicing
-                  <br />consectetur adipis
+                  creation of APIs,<br />
+                  microservices and automations
                 </p>
               </div>
               <div class="child">
@@ -129,8 +122,8 @@
                 ></v-btn>
                 <h3 class="ml-3 mt-4">Dev Ops</h3>
                 <p class="text-grey ml-3 mt-4 text-caption">
-                  Lorem, ipsum dolor sit amet <br />consectetur adipisicing
-                  <br />consectetur adipis
+                  CI/CD, Pipelines and AWS <br />
+                  monitor application performance
                 </p>
               </div>
             </v-col>
@@ -173,7 +166,7 @@
           <v-row>
             <v-col cols="12" sm="4">
               <v-card class="mx-auto" max-width="344" height="">
-                <v-img src="/4401287.jpg" height="200px" cover></v-img>
+                <v-img src="/4401287.webp" height="200px" cover></v-img>
 
                 <v-card-title> We provide you the best </v-card-title>
 
@@ -188,7 +181,7 @@
             </v-col>
             <v-col cols="12" sm="4">
               <v-card class="mx-auto" max-width="344" height="">
-                <v-img src="/4401287.jpg" height="200px" cover></v-img>
+                <v-img src="/4401287.webp" height="200px" cover></v-img>
 
                 <v-card-title> We provide you the best </v-card-title>
 
@@ -203,7 +196,7 @@
             </v-col>
             <v-col cols="12" sm="4">
               <v-card class="mx-auto" max-width="344" height="">
-                <v-img src="/4401287.jpg" height="200px" cover></v-img>
+                <v-img src="/4401287.webp" height="200px" cover></v-img>
 
                 <v-card-title> We provide you the best </v-card-title>
 
@@ -256,7 +249,7 @@
                 variant="outlined"
               ></v-btn
               ><br />
-              <span class="text-caption">(91)98342-9188</span> <br />
+              <span class="text-caption">(91)99161-0184</span> <br />
               <v-btn
                 icon="fas fa-envelope"
                 color=""
@@ -311,8 +304,7 @@
 import { defineComponent } from "vue";
 import NavBar from "../components/NavBar.vue";
 import FooterView from "../components/FooterView.vue";
-// Components
-//import HelloWorld from '../components/HelloWorld.vue';
+
 export default defineComponent({
   name: "HomeView",
   setup() {
@@ -320,24 +312,24 @@ export default defineComponent({
       slider2: 50,
       items: [
         {
-          img: "/971.jpg",
+          img: "/971.webp",
+        },           
+        {     
+          img: "/971.webp",
+        },  
+        {  
+          img: "/971.webp",
         },
         {
-          img: "/971.jpg",
+          img: "/971.webp",
         },
         {
-          img: "/971.jpg",
+          img: "/971.webp",
         },
         {
-          img: "/971.jpg",
+          img: "/971.webp",
         },
-        {
-          img: "/971.jpg",
-        },
-        {
-          img: "/971.jpg",
-        },
-      ],
+      ]
     };
   },
   components: {
