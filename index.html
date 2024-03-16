@@ -1,18 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" href="/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Josué Lobo</title>
-  <script type="module" crossorigin src="/assets/index.0d306cee.js"></script>
-  <link rel="stylesheet" href="/assets/index.4d23270e.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedir a Pessoa para Sair</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+      border: none;
+      background-color: #007bff;
+      color: #fff;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
-
 <body>
-  <div id="app"></div>
-  
-</body>
+  <h1>Você gostaria de sair?</h1>
+  <button onclick="confirmarSair()">Sim</button>
+  <button onclick="cancelarSair()">Não</button>
 
+  <script>
+    function confirmarSair() {
+      if (confirm("Tem certeza de que deseja sair?")) {
+        window.location.href = "https://www.google.com"; // Redireciona para o Google como exemplo
+      }
+    }
+
+    function cancelarSair() {
+      alert("Ótimo! Fique à vontade para continuar navegando.");
+    }
+  </script>
+</body>
 </html>
